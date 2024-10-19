@@ -1,9 +1,9 @@
 <script>
   import "./style.css";
   import icon from "data-base64:~assets/icon.png";
-  const step1 = "https://raw.githubusercontent.com/enzon19/templates-da-olx/main/assets/step1.gif";
+  const step1 = "https://raw.githubusercontent.com/enzon19/templates-da-olx/main/step1.gif";
   import step2 from "data-base64:~assets/step2.png";
-  const step3 = "https://raw.githubusercontent.com/enzon19/templates-da-olx/main/assets/step3.gif";
+  const step3 = "https://raw.githubusercontent.com/enzon19/templates-da-olx/main/step3.gif";
 </script>
 
 <head>
