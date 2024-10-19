@@ -7,7 +7,7 @@ import preprocess from "svelte-preprocess"
  */
 const config = {
   preprocess: preprocess({
-    // ...svelte-preprocess options
+    postcss: true
   })
   // ...other svelte options
 }

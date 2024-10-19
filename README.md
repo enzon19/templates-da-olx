@@ -1,35 +1,18 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/enzon19/templates-da-olx/main/assets/icon.png" alt="Templates da OLX" width="187" height="187">
+</p>
 
-## Getting Started
+# Templates da OLX
+Crie seus próprios templates para anúncios da OLX.
 
-First, make sure to replace `type="ts"` with `lang="ts"` in your Svelte components.
+[Chrome Web Store]() • [Firefox Add-ons]()
 
-Second, run the development server:
+## Por quê?
+Anúncios expirando toda hora é um dos maiores defeitos da OLX. Essa extensão soluciona esse problema gratuitamente permitindo que você crie templates que facilitam o reupload de anúncios. **Você economiza tempo e dinheiro com a extensão!**
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
-
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
-
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
-
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
-
-## Making production build
-
-Run the following:
-
-```bash
-pnpm build
-# or
-npm run build
-```
-
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+## Como usar?
+1. Crie seu anúncio normalmente;
+2. Ao chegar na etapa final, não envie o anúncio AINDA;
+3. Clique no botão "Novo template" na barra superior;
+4. Salve o template e envie o anúncio, se você quiser enviar;
+5. Use o template novamente quando quiser após selecionar uma categoria de anúncio.
